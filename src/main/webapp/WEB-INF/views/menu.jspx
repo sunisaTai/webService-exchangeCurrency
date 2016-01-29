@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:menu="urn:jsptagdir:/WEB-INF/tags/menu" id="menu" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <menu:menu id="_menu" z="nZaf43BjUg1iM0v70HJVEsXDopc=">
+        <menu:category id="c_appparameter" z="5mUYYap9ZRBiKPp4qubv89wJPY0=">
+            <menu:item id="i_appparameter_new" messageCode="global_menu_new" url="/appparameters?form" z="hbD/AD6derOlHkX9nKIJkYZ9e6g="/>
+            <menu:item id="i_appparameter_list" messageCode="global_menu_list" url="/appparameters?page=1&amp;size=${empty param.size ? 10 : param.size}" z="4CltvsX1wc/SoBCt7va641wMgnk="/>
+        </menu:category>
+        <menu:category id="c_bank" z="urfG2H4CztfQ3s8kJjyjoPtc8XU=">
+            <menu:item id="i_bank_new" messageCode="global_menu_new" url="/banks?form" z="pYFP3A4CYT1Gfome+P6UFz/nph0="/>
+            <menu:item id="i_bank_list" messageCode="global_menu_list" url="/banks?page=1&amp;size=${empty param.size ? 10 : param.size}" z="QTTD/V6dSXanutT8kIh11u/d1Rw="/>
+        </menu:category>
+        <menu:category id="c_exchangecurrency" z="OnTtdB8bgKrO33UwAz+qxNbn9Zg=">
+            <menu:item id="i_exchangecurrency_new" messageCode="global_menu_new" url="/exchangecurrencys?form" z="U29Ho+EYIC80/VAAb3QJ3Xzdd9I="/>
+            <menu:item id="i_exchangecurrency_list" messageCode="global_menu_list" url="/exchangecurrencys?page=1&amp;size=${empty param.size ? 10 : param.size}" z="lxz7Lg3MkNKMZ7r2JxGY5LOnC6A="/>
+        </menu:category>
+        <menu:category id="c_emailtemplate" z="dIg/wn/d1XXbHUMBKebZoiEWSx0=">
+            <menu:item id="i_emailtemplate_new" messageCode="global_menu_new" url="/emailtemplates?form" z="3usGAhZqDUQYnPLeCjZ6DdwPs7s="/>
+            <menu:item id="i_emailtemplate_list" messageCode="global_menu_list" url="/emailtemplates?page=1&amp;size=${empty param.size ? 10 : param.size}" z="jnhUB8eq8sOrY09E/raNUv0V74A="/>
+        </menu:category>
+        <menu:category id="c_dateexchangecuurency" z="34UGVOGHpa64GCfz4eMRkhhxuFs=">
+            <menu:item id="i_dateexchangecuurency_new" messageCode="global_menu_new" url="/dateexchangecuurencys?form" z="wTBFt6Mwlr0hyCuB/zRWadUojQo="/>
+            <menu:item id="i_dateexchangecuurency_list" messageCode="global_menu_list" url="/dateexchangecuurencys?page=1&amp;size=${empty param.size ? 10 : param.size}" z="0I3VXKJanPh3kbutpJ7uLspfNGM="/>
+        </menu:category>
+        <menu:category id="c_appuser" z="cRddFjEd+tY/sB3uFILzC627HG4=">
+            <menu:item id="i_appuser_new" messageCode="global_menu_new" url="/appusers?form" z="WiHW92wA1LAtLb8e1wUckLwfr5Y="/>
+            <menu:item id="i_appuser_list" messageCode="global_menu_list" url="/appusers?page=1&amp;size=${empty param.size ? 10 : param.size}" z="P7xJtmb2eX6uz538bncoLyeRzlM="/>
+        </menu:category>
+        <menu:category id="c_approle" z="Jt5g47NR6sFIwC0UmcTXlkZRr84=">
+            <menu:item id="i_approle_new" messageCode="global_menu_new" url="/approles?form" z="M2wjb51DSDER7FzvMEN6iwd9qe0="/>
+            <menu:item id="i_approle_list" messageCode="global_menu_list" url="/approles?page=1&amp;size=${empty param.size ? 10 : param.size}" z="6P9Z/GJhHaCRZ5uH/jV9UaYvRfo="/>
+        </menu:category>
+        <menu:category id="c_currency" z="4pjZ2I2ixOKpIUoeevcuj+RNTqk=">
+            <menu:item id="i_currency_new" messageCode="global_menu_new" url="/currencys?form" z="wtoWx2hfTsQL1YiwSjYPYI+KaBc="/>
+            <menu:item id="i_currency_list" messageCode="global_menu_list" url="/currencys?page=1&amp;size=${empty param.size ? 10 : param.size}" z="pq/2nUUUysCAfl0NCq3zQNxg4Kw="/>
+        </menu:category>
+        <menu:category id="c_parameterdetail" z="f1SvXj/CmFwLAjL4U3kJqNM3/mY=">
+            <menu:item id="i_parameterdetail_new" messageCode="global_menu_new" url="/parameterdetails?form" z="KpMoBKXi3OcmrNPJGtEHgLSjy1w="/>
+            <menu:item id="i_parameterdetail_list" messageCode="global_menu_list" url="/parameterdetails?page=1&amp;size=${empty param.size ? 10 : param.size}" z="3R1FL0+FwN1f7fRVeYGk0dW+H0s="/>
+        </menu:category>
+    </menu:menu>
+</div>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_exc_exchangecurrency_domain_EMailTemplate" items="${emailtemplates}" z="qE8L2KWZs7aFuYvVk1pmyJ76A/I=">
+        <table:table data="${emailtemplates}" id="l_com_exc_exchangecurrency_domain_EMailTemplate" path="/emailtemplates" z="Ov3gHszjMI5J49bQyse+GpTkRtA=">
+            <table:column id="c_com_exc_exchangecurrency_domain_EMailTemplate_createdBy" property="createdBy" z="70RnW3IivN7XOv404vLdcHnh4ZI="/>
+            <table:column id="c_com_exc_exchangecurrency_domain_EMailTemplate_updatedBy" property="updatedBy" z="RPxs1TV3VXeYFYlXbL9VcX14KnI="/>
+            <table:column id="c_com_exc_exchangecurrency_domain_EMailTemplate_status" property="status" z="6nU342FhQOllcGwnGpZLqZ4rNFk="/>
+            <table:column date="true" dateTimePattern="${EMailTemplate__createddate_date_format}" id="c_com_exc_exchangecurrency_domain_EMailTemplate_createdDate" property="createdDate" z="iXmLwlCnN4DhW2HPLxowmRE9UIw="/>
+            <table:column date="true" dateTimePattern="${EMailTemplate__updateddate_date_format}" id="c_com_exc_exchangecurrency_domain_EMailTemplate_updatedDate" property="updatedDate" z="EiJFOgpfi70+rhepcCA3Py1ZIJ0="/>
+            <table:column id="c_com_exc_exchangecurrency_domain_EMailTemplate_code" property="code" z="El/RkPt0GYqrNRC+Zz5YTjkYRBk="/>
+        </table:table>
+    </page:list>
+</div>

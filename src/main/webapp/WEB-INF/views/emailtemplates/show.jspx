@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_exc_exchangecurrency_domain_EMailTemplate" object="${emailtemplate_}" path="/emailtemplates" z="EBn5gGAWiY8mZHkQKp25+llPiDw=">
+        <field:display field="createdBy" id="s_com_exc_exchangecurrency_domain_EMailTemplate_createdBy" object="${emailtemplate_}" z="8rm+s+J/YnLyrwZA9X2AxBKUY9k="/>
+        <field:display field="updatedBy" id="s_com_exc_exchangecurrency_domain_EMailTemplate_updatedBy" object="${emailtemplate_}" z="WHRYXIlXRptVUSX78u352uUUuGI="/>
+        <field:display field="status" id="s_com_exc_exchangecurrency_domain_EMailTemplate_status" object="${emailtemplate_}" z="iwretyIUFq5UdA4TOSz9y8ZEXwo="/>
+        <field:display date="true" dateTimePattern="${EMailTemplate__createddate_date_format}" field="createdDate" id="s_com_exc_exchangecurrency_domain_EMailTemplate_createdDate" object="${emailtemplate_}" z="JQ0A7FIO9CpHrM6HNNeUd4/RLJQ="/>
+        <field:display date="true" dateTimePattern="${EMailTemplate__updateddate_date_format}" field="updatedDate" id="s_com_exc_exchangecurrency_domain_EMailTemplate_updatedDate" object="${emailtemplate_}" z="+GHw9RD9EPYuvkDJCeZiItKZmsA="/>
+        <field:display field="code" id="s_com_exc_exchangecurrency_domain_EMailTemplate_code" object="${emailtemplate_}" z="VNeH/zBpbkvnAKbE9dZIiXQH1Qc="/>
+        <field:display field="emailTemplate" id="s_com_exc_exchangecurrency_domain_EMailTemplate_emailTemplate" object="${emailtemplate_}" z="lPvGjIZbteVWoXj27uHR8hTfn4E="/>
+    </page:show>
+</div>

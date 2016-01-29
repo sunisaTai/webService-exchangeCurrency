@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_exc_exchangecurrency_domain_EMailTemplate" modelAttribute="EMailTemplate_" path="/emailtemplates" versionField="Version" z="pK5PX+lVC0O4EewPM/gqEp4BsLE=">
+        <field:input field="createdBy" id="c_com_exc_exchangecurrency_domain_EMailTemplate_createdBy" z="mCpAcsQpFsMxjl+J5I1sOyqBNGY="/>
+        <field:input field="updatedBy" id="c_com_exc_exchangecurrency_domain_EMailTemplate_updatedBy" z="Oixq/BsU9MFHIvGXXY7Q+DDYK9o="/>
+        <field:input field="status" id="c_com_exc_exchangecurrency_domain_EMailTemplate_status" z="eolsO4W7HJ4DUKshUif2sQGub3Y="/>
+        <field:datetime dateTimePattern="${EMailTemplate__createddate_date_format}" field="createdDate" id="c_com_exc_exchangecurrency_domain_EMailTemplate_createdDate" z="4oZbX2HWRIfx+r6ZtkHGiqZ0tPM="/>
+        <field:datetime dateTimePattern="${EMailTemplate__updateddate_date_format}" field="updatedDate" id="c_com_exc_exchangecurrency_domain_EMailTemplate_updatedDate" z="VNTROV3UBMXM8tKY0xzSR8nedvI="/>
+        <field:input field="code" id="c_com_exc_exchangecurrency_domain_EMailTemplate_code" required="true" z="LEvE5EQ5xgbHQZ93cRKhHifKT8U="/>
+        <field:input field="emailTemplate" id="c_com_exc_exchangecurrency_domain_EMailTemplate_emailTemplate" validationMessageCode="field_invalid_email" z="WQJ3SHINMitz8bLWv9PoFKuf5LU="/>
+    </form:update>
+</div>

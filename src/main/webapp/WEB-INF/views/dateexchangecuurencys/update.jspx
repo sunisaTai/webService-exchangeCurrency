@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_exc_exchangecurrency_domain_exc_DateExchangeCuurency" modelAttribute="dateExchangeCuurency" path="/dateexchangecuurencys" versionField="Version" z="Gdt4bF9+6GAK01g8+965XbNDOxE=">
+        <field:input field="createdBy" id="c_com_exc_exchangecurrency_domain_exc_DateExchangeCuurency_createdBy" z="ZfVtgkm7hXcoVIvII6nWnoNfAoI="/>
+        <field:input field="updatedBy" id="c_com_exc_exchangecurrency_domain_exc_DateExchangeCuurency_updatedBy" z="Yk+xk4aEVRZOJbIb8DyQVw3kkT0="/>
+        <field:input field="status" id="c_com_exc_exchangecurrency_domain_exc_DateExchangeCuurency_status" z="HPTKfZXwW8HgtGukr7JyaoR9qb4="/>
+        <field:datetime dateTimePattern="${dateExchangeCuurency_createddate_date_format}" field="createdDate" id="c_com_exc_exchangecurrency_domain_exc_DateExchangeCuurency_createdDate" z="SrMe9L2NOHM+qLm6qC3x87RfTiI="/>
+        <field:datetime dateTimePattern="${dateExchangeCuurency_updateddate_date_format}" field="updatedDate" id="c_com_exc_exchangecurrency_domain_exc_DateExchangeCuurency_updatedDate" z="df9ZEU+B+h/hYfF34DFJXCWMPsM="/>
+        <field:input field="dateExchangeCuurency" id="c_com_exc_exchangecurrency_domain_exc_DateExchangeCuurency_dateExchangeCuurency" validationMessageCode="field_invalid_integer" z="7ZH14gqYBmeqAuAdbG7Hv/0fBUU="/>
+        <field:simple field="ExchangeCurrency" id="c_com_exc_exchangecurrency_domain_exc_DateExchangeCuurency_ExchangeCurrency" messageCode="entity_reference_not_managed" messageCodeAttribute="Exchange Currency" z="IEpe6K6bxyjdCA3Dmjfuqy3maO0="/>
+    </form:update>
+</div>

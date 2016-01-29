@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_exc_exchangecurrency_domain_exc_DateExchangeCuurency" items="${dateexchangecuurencys}" z="QvrKF2OPiunbxqe+Y6GgUVB6tcY=">
+        <table:table data="${dateexchangecuurencys}" id="l_com_exc_exchangecurrency_domain_exc_DateExchangeCuurency" path="/dateexchangecuurencys" z="O+5K2nqaXmqhSEquJGXlj5/ITdQ=">
+            <table:column id="c_com_exc_exchangecurrency_domain_exc_DateExchangeCuurency_createdBy" property="createdBy" z="FfaY4Ar6kkQF9kYyEuJlD6wwktA="/>
+            <table:column id="c_com_exc_exchangecurrency_domain_exc_DateExchangeCuurency_updatedBy" property="updatedBy" z="4ekfeuQxpsDPMK84F/wigtUrc5s="/>
+            <table:column id="c_com_exc_exchangecurrency_domain_exc_DateExchangeCuurency_status" property="status" z="ORZY1sGitae4OoP4d1qeRsD3eYw="/>
+            <table:column date="true" dateTimePattern="${dateExchangeCuurency_createddate_date_format}" id="c_com_exc_exchangecurrency_domain_exc_DateExchangeCuurency_createdDate" property="createdDate" z="86nWnUdCTKNg2Ko5m+LhIXdMQfo="/>
+            <table:column date="true" dateTimePattern="${dateExchangeCuurency_updateddate_date_format}" id="c_com_exc_exchangecurrency_domain_exc_DateExchangeCuurency_updatedDate" property="updatedDate" z="UX7mEJtRkDTnASX02ry84T+na3c="/>
+            <table:column id="c_com_exc_exchangecurrency_domain_exc_DateExchangeCuurency_dateExchangeCuurency" property="dateExchangeCuurency" z="NXiTgL0rqNix3UKPxK6pwsb6KMY="/>
+        </table:table>
+    </page:list>
+</div>

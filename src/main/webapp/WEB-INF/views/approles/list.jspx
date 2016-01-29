@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_exc_exchangecurrency_security_AppRole" items="${approles}" z="N/AyUarkdzg2xQdeGv1YvpDwNaI=">
+        <table:table data="${approles}" id="l_com_exc_exchangecurrency_security_AppRole" path="/approles" z="6QvL+/KdOHrrCZrR0j8qHCRGozI=">
+            <table:column id="c_com_exc_exchangecurrency_security_AppRole_createdBy" property="createdBy" z="WZqaTc13GQGQq30Jp5/4hm8XsB0="/>
+            <table:column id="c_com_exc_exchangecurrency_security_AppRole_updatedBy" property="updatedBy" z="DZBKgsUhU5eOlnYb4YXU0aiAeUo="/>
+            <table:column id="c_com_exc_exchangecurrency_security_AppRole_status" property="status" z="kja+u4ygnQLGkisr5H8iUkUtLOM="/>
+            <table:column date="true" dateTimePattern="${appRole_createddate_date_format}" id="c_com_exc_exchangecurrency_security_AppRole_createdDate" property="createdDate" z="Jx2egUUrFmRid8ig3I2vcSIr8rI="/>
+            <table:column date="true" dateTimePattern="${appRole_updateddate_date_format}" id="c_com_exc_exchangecurrency_security_AppRole_updatedDate" property="updatedDate" z="W/d5BG35expcRmXHlgqXS9xsn6o="/>
+            <table:column id="c_com_exc_exchangecurrency_security_AppRole_name" property="name" z="sRyCc+IEuy1ZN/Ub2WOSo0eNglQ="/>
+        </table:table>
+    </page:list>
+</div>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_exc_exchangecurrency_domain_exc_Bank" items="${banks}" z="cHmMicDXQI02/NDhFuZPQfMNp2k=">
+        <table:table data="${banks}" id="l_com_exc_exchangecurrency_domain_exc_Bank" path="/banks" z="bhMlUjwH6YrfJk2H5jKlvhodA5Q=">
+            <table:column id="c_com_exc_exchangecurrency_domain_exc_Bank_createdBy" property="createdBy" z="Z2AQkBpP/6X+X8OL14g4BBd/7Lo="/>
+            <table:column id="c_com_exc_exchangecurrency_domain_exc_Bank_updatedBy" property="updatedBy" z="gaVv/nDKYvs/EJ6+WB2aQingwKs="/>
+            <table:column id="c_com_exc_exchangecurrency_domain_exc_Bank_status" property="status" z="DasCKahZ1DwZsJi4KBSqvAN9gRM="/>
+            <table:column date="true" dateTimePattern="${bank_createddate_date_format}" id="c_com_exc_exchangecurrency_domain_exc_Bank_createdDate" property="createdDate" z="vDtYnpLjfRL9rUK57R19r4jf+5w="/>
+            <table:column date="true" dateTimePattern="${bank_updateddate_date_format}" id="c_com_exc_exchangecurrency_domain_exc_Bank_updatedDate" property="updatedDate" z="n18dGvMG9W4XC1vw7RImPyUbOuQ="/>
+            <table:column id="c_com_exc_exchangecurrency_domain_exc_Bank_bank_Name" property="bank_Name" z="WWQ8gb9UVvU3dyFPsxfTkuOJZFY="/>
+        </table:table>
+    </page:list>
+</div>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_exc_exchangecurrency_domain_exc_Bank" object="${bank}" path="/banks" z="slK6fylKBiNugoZQkEC3aJKN1jE=">
+        <field:display field="createdBy" id="s_com_exc_exchangecurrency_domain_exc_Bank_createdBy" object="${bank}" z="fqnQfteOuattcjlCPHaxxgy/ad4="/>
+        <field:display field="updatedBy" id="s_com_exc_exchangecurrency_domain_exc_Bank_updatedBy" object="${bank}" z="sSH1LPRYyQzBUVV34K5ziEwqslE="/>
+        <field:display field="status" id="s_com_exc_exchangecurrency_domain_exc_Bank_status" object="${bank}" z="dX8ZTyZTPlZFpAJStvLj3vPrAtY="/>
+        <field:display date="true" dateTimePattern="${bank_createddate_date_format}" field="createdDate" id="s_com_exc_exchangecurrency_domain_exc_Bank_createdDate" object="${bank}" z="Zk1TFVQAOW6WPrvZtJYid1/xDUU="/>
+        <field:display date="true" dateTimePattern="${bank_updateddate_date_format}" field="updatedDate" id="s_com_exc_exchangecurrency_domain_exc_Bank_updatedDate" object="${bank}" z="Hnhhb7WiqfFb7eleWOmE6LpZi9U="/>
+        <field:display field="bank_Name" id="s_com_exc_exchangecurrency_domain_exc_Bank_bank_Name" object="${bank}" z="D6T6/ue2++xW5VtfPZT2XycMQ0w="/>
+    </page:show>
+</div>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_exc_exchangecurrency_security_AppRole" object="${approle}" path="/approles" z="OBf1b1dz0wezLy9ztT60oJLgPRw=">
+        <field:display field="createdBy" id="s_com_exc_exchangecurrency_security_AppRole_createdBy" object="${approle}" z="jgVXFS/FT6O7bfV2AFp7spnhiQg="/>
+        <field:display field="updatedBy" id="s_com_exc_exchangecurrency_security_AppRole_updatedBy" object="${approle}" z="PSilWSRXy31rzKmk2qNYtz9U8S4="/>
+        <field:display field="status" id="s_com_exc_exchangecurrency_security_AppRole_status" object="${approle}" z="d8v41mAvwSgPBginKluKkjeNVCU="/>
+        <field:display date="true" dateTimePattern="${appRole_createddate_date_format}" field="createdDate" id="s_com_exc_exchangecurrency_security_AppRole_createdDate" object="${approle}" z="xv6rqLWgOekokZB9CMnG9oEAGJI="/>
+        <field:display date="true" dateTimePattern="${appRole_updateddate_date_format}" field="updatedDate" id="s_com_exc_exchangecurrency_security_AppRole_updatedDate" object="${approle}" z="Yx/TQq4XElG0YqdUIRkx6N6Jbmk="/>
+        <field:display field="name" id="s_com_exc_exchangecurrency_security_AppRole_name" object="${approle}" z="oYFsebu+ScEEd2/gYeubvgY5zzs="/>
+        <field:display field="description" id="s_com_exc_exchangecurrency_security_AppRole_description" object="${approle}" z="zhkzQ7irbgmKWXKEF2jaKtM9AS0="/>
+        <field:display field="hrRole" id="s_com_exc_exchangecurrency_security_AppRole_hrRole" object="${approle}" z="69looELexrbg3R6qN/i/d9P2mk4="/>
+        <field:display field="workflowUser" id="s_com_exc_exchangecurrency_security_AppRole_workflowUser" object="${approle}" z="EmunDceDydk0v3JirLwh/Mcu9lA="/>
+        <field:display field="workflowPassword" id="s_com_exc_exchangecurrency_security_AppRole_workflowPassword" object="${approle}" z="qMLLUwbv44CDfXaYIN5bVQOd93Q="/>
+    </page:show>
+</div>

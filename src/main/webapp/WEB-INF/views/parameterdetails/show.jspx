@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_exc_exchangecurrency_domain_ParameterDetail" object="${parameterdetail}" path="/parameterdetails" z="WV0EG4hdRPMuLghkberVDaLqKiY=">
+        <field:display field="createdBy" id="s_com_exc_exchangecurrency_domain_ParameterDetail_createdBy" object="${parameterdetail}" z="VXcpoLGQHydJ4cGpxZSBLJvkMUk="/>
+        <field:display field="updatedBy" id="s_com_exc_exchangecurrency_domain_ParameterDetail_updatedBy" object="${parameterdetail}" z="agOHkzLJ3EHMq5D/ls9zLwhnZv4="/>
+        <field:display field="status" id="s_com_exc_exchangecurrency_domain_ParameterDetail_status" object="${parameterdetail}" z="g/TvgI5pLr6eiK9p1gGsodCpMoQ="/>
+        <field:display date="true" dateTimePattern="${parameterDetail_createddate_date_format}" field="createdDate" id="s_com_exc_exchangecurrency_domain_ParameterDetail_createdDate" object="${parameterdetail}" z="8hlKclIwo4k71bBJL4QYAeAmuPQ="/>
+        <field:display date="true" dateTimePattern="${parameterDetail_updateddate_date_format}" field="updatedDate" id="s_com_exc_exchangecurrency_domain_ParameterDetail_updatedDate" object="${parameterdetail}" z="Ptw7Kgav0Sp/SrYRhPU7R9sBQQM="/>
+        <field:display field="code" id="s_com_exc_exchangecurrency_domain_ParameterDetail_code" object="${parameterdetail}" z="xLhWQzjZJmW0pJrbrShOKm6frCc="/>
+        <field:display field="parameterDescription" id="s_com_exc_exchangecurrency_domain_ParameterDetail_parameterDescription" object="${parameterdetail}" z="P+WjQ/UFxlccc6hGWcsEgoS5cnE="/>
+        <field:display field="paramaterType" id="s_com_exc_exchangecurrency_domain_ParameterDetail_paramaterType" object="${parameterdetail}" z="8oQWCT9B0dE/w6mnNp6BN1wfOvY="/>
+        <field:display field="parameterValue" id="s_com_exc_exchangecurrency_domain_ParameterDetail_parameterValue" object="${parameterdetail}" z="NEPe4B0AQT01/EFFpnM4+N8dzB4="/>
+        <field:display field="appParameter" id="s_com_exc_exchangecurrency_domain_ParameterDetail_appParameter" object="${parameterdetail}" z="6fRpjEP2tmHJRFUX6q4pDvcrDw4="/>
+    </page:show>
+</div>

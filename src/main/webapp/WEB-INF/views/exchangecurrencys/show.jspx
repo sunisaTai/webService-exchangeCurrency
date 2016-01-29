@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_exc_exchangecurrency_domain_exc_ExchangeCurrency" object="${exchangecurrency}" path="/exchangecurrencys" z="7CTzzsrH5SkDUAm1joIBzuCpAc4=">
+        <field:display field="createdBy" id="s_com_exc_exchangecurrency_domain_exc_ExchangeCurrency_createdBy" object="${exchangecurrency}" z="Pasxx9txc0Ugk7jAcY0CB0M2nJI="/>
+        <field:display field="updatedBy" id="s_com_exc_exchangecurrency_domain_exc_ExchangeCurrency_updatedBy" object="${exchangecurrency}" z="8Dvbo63ALdmdLLBnC+Vl0I9JTuE="/>
+        <field:display field="status" id="s_com_exc_exchangecurrency_domain_exc_ExchangeCurrency_status" object="${exchangecurrency}" z="NUdEPunWNqVHIJ9He71LJz27Gj4="/>
+        <field:display date="true" dateTimePattern="${exchangeCurrency_createddate_date_format}" field="createdDate" id="s_com_exc_exchangecurrency_domain_exc_ExchangeCurrency_createdDate" object="${exchangecurrency}" z="uGIWzoR+OENyvGoVyG+LjHRriYI="/>
+        <field:display date="true" dateTimePattern="${exchangeCurrency_updateddate_date_format}" field="updatedDate" id="s_com_exc_exchangecurrency_domain_exc_ExchangeCurrency_updatedDate" object="${exchangecurrency}" z="JBSFGr7a5QqSC9sEom5HjRa8PFk="/>
+        <field:display field="exchange_Rates" id="s_com_exc_exchangecurrency_domain_exc_ExchangeCurrency_exchange_Rates" object="${exchangecurrency}" z="r7ojfx0fgF5iGiqA+hZIYScjYB0="/>
+        <field:display field="bank" id="s_com_exc_exchangecurrency_domain_exc_ExchangeCurrency_Bank" object="${exchangecurrency}" z="CRGvnMO6oTm5CohqqspM0RmROUc="/>
+        <field:display field="dateExchangeCuurency" id="s_com_exc_exchangecurrency_domain_exc_ExchangeCurrency_DateExchangeCuurency" object="${exchangecurrency}" z="RN+8O6HkQQ5SwDUJBtgCu5c1sl8="/>
+        <field:display field="currency" id="s_com_exc_exchangecurrency_domain_exc_ExchangeCurrency_Currency" object="${exchangecurrency}" z="krz5zzGt6/IVFzUTBHDHVuC5fxI="/>
+    </page:show>
+</div>

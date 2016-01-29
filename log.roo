@@ -1,0 +1,81 @@
+// Spring Roo UNKNOWN VERSION log opened at 2559-01-29 09:08:15
+// [failed] project --topLevelPackage com.exc.exchangeCurrency --projectName ExchangeCurrency --java 7
+exit
+// Spring Roo UNKNOWN VERSION log closed at 2559-01-29 09:14:26
+// Spring Roo UNKNOWN VERSION log opened at 2559-01-29 09:25:02
+// Spring Roo UNKNOWN VERSION log opened at 2559-01-29 10:10:51
+exit
+// Spring Roo UNKNOWN VERSION log closed at 2559-01-29 10:11:06
+// Spring Roo UNKNOWN VERSION log opened at 2559-01-29 10:11:10
+exit
+// Spring Roo UNKNOWN VERSION log closed at 2559-01-29 10:11:47
+// Spring Roo 1.3.2.RELEASE [rev 8387857] log opened at 2559-01-29 10:15:28
+project --topLevelPackage com.exc.exchangeCurrency --projectName ExchangeCurrency --java 7
+persistence setup --provider HIBERNATE --database DERBY_EMBEDDED
+entity jpa --class ~base.BaseEntity --abstract --mappedSuperclass --activeRecord
+field string createdBy
+field string updatedBy
+field string status
+field date --fieldName createdDate --type java.util.Date --dateFormat SHORT --dateTimeFormatPattern "dd/MM/yyyy"
+field date --fieldName updatedDate --type java.util.Date --dateFormat SHORT --dateTimeFormatPattern "dd/MM/yyyy"
+entity jpa --class ~.domain.AppParameter --extends ~.base.BaseEntity --inheritanceType TABLE_PER_CLASS --testAutomatically 
+field string code --unique --notNull
+field string parameterDescription
+entity jpa --class ~.domain.ParameterDetail --extends ~.base.BaseEntity --inheritanceType TABLE_PER_CLASS --testAutomatically 
+field string code --unique --notNull
+field string parameterDescription
+field string paramaterType
+field string parameterValue
+field reference --fieldName appParameter --type ~.domain.AppParameter --cardinality MANY_TO_ONE --fetch EAGER --joinColumnName appParameter
+focus --class ~.domain.AppParameter
+field set --fieldName parameterDetails --type ~.domain.ParameterDetail --fetch EAGER --cardinality ONE_TO_MANY --mappedBy appParameter
+entity jpa --class ~.domain.EMailTemplate --extends ~.base.BaseEntity --inheritanceType TABLE_PER_CLASS --testAutomatically 
+field string code --unique --notNull
+field string emailTemplate
+entity jpa --class ~.security.AppUser --extends ~.base.BaseEntity --inheritanceType TABLE_PER_CLASS --testAutomatically 
+field string username
+field string password
+field string description
+field boolean enabled
+field boolean needLogin
+field string manager
+field string userEmail
+field string defaultLang
+entity jpa --class ~.security.AppRole --extends ~.base.BaseEntity --inheritanceType TABLE_PER_CLASS --testAutomatically 
+field string name
+field string description
+field string hrRole
+field string workflowUser
+field string workflowPassword
+focus --class ~.security.AppUser
+field reference --fieldName userRole --type ~.security.AppRole --cardinality MANY_TO_ONE --fetch EAGER --joinColumnName USERROLE
+finder add findAppUsersByUsernameEquals
+entity jpa --class ~.domain.exc.Bank --extends ~.base.BaseEntity --testAutomatically --inheritanceType TABLE_PER_CLASS
+field string --fieldName bank_Name
+// [failed] entity jpa --class ~.domain.exc.Date --extends ~.base.BaseEntity --testAutomatically --inheritanceType TABLE_PER_CLASS
+// [failed] entity jpa --class ~.domain.exc.Day --extends ~.base.BaseEntity --testAutomatically --inheritanceType TABLE_PER_CLASS
+entity jpa --class ~.domain.exc.DateExchangeCuurency --extends ~.base.BaseEntity --testAutomatically --inheritanceType TABLE_PER_CLASS
+// [failed] field number --fieldName date --type java.lang.Integer
+field number --fieldName dateExchangeCuurency --type java.lang.Integer
+entity jpa --class ~.domain.exc.Currency --extends ~.base.BaseEntity --testAutomatically --inheritanceType TABLE_PER_CLASS
+field string --fieldName currency_Name
+field string --fieldName symbol
+entity jpa --class ~.domain.exc.ExchangeCurrency --extends ~.base.BaseEntity --testAutomatically --inheritanceType TABLE_PER_CLASS
+field number --fieldName exchange_Rates --type java.lang.float
+field reference --fieldName Bank --type ~.domain.exc.Bank --cardinality MANY_TO_ONE --joinColumnName Bank --fetch LAZY 
+focus --class ~.domain.exc.Bank
+field set --fieldName ExchangeCurrency --type ~.domain.exc.ExchangeCurrency --cardinality ONE_TO_MANY --fetch LAZY --mappedBy Bank
+focus --class ~.domain.exc.ExchangeCurrency
+field reference --fieldName DateExchangeCuurency --type ~.domain.exc.DateExchangeCuurency --cardinality MANY_TO_ONE --joinColumnName Date --fetch LAZY
+focus --class ~.domain.exc.DateExchangeCuurency
+field set --fieldName ExchangeCurrency --type ~.domain.exc.ExchangeCurrency --cardinality ONE_TO_MANY --fetch LAZY --mappedBy DateExchangeCuurency
+focus --class ~.domain.exc.ExchangeCurrency
+field reference --fieldName Currency --type ~.domain.exc.Currency --cardinality MANY_TO_ONE --joinColumnName Currency --fetch LAZY 
+focus --class ~.domain.exc.Currency
+field set --fieldName ExchangeCurrency --type ~.domain.exc.Currency --cardinality ONE_TO_MANY --fetch LAZY --mappedBy Currency
+json all --deepSerialize
+web mvc setup
+web mvc all --package ~.web.exc
+web mvc json all 
+exit
+// Spring Roo 1.3.2.RELEASE [rev 8387857] log closed at 2559-01-29 10:25:00

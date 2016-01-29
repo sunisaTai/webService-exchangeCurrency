@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_exc_exchangecurrency_security_AppUser" object="${appuser}" path="/appusers" z="xbhD+ylS3O117GEsDX9S4hPbqZw=">
+        <field:display field="createdBy" id="s_com_exc_exchangecurrency_security_AppUser_createdBy" object="${appuser}" z="Khbima5DCLpoDZrfB17DC28mF8I="/>
+        <field:display field="updatedBy" id="s_com_exc_exchangecurrency_security_AppUser_updatedBy" object="${appuser}" z="Xr+hAXEvLEd0ILC3aopcibSoWaA="/>
+        <field:display field="status" id="s_com_exc_exchangecurrency_security_AppUser_status" object="${appuser}" z="luCwVlyPrcfh+kactyDCrJ3NGcs="/>
+        <field:display date="true" dateTimePattern="${appUser_createddate_date_format}" field="createdDate" id="s_com_exc_exchangecurrency_security_AppUser_createdDate" object="${appuser}" z="Oe4+HvF+v+y4iVi3fcFu5pZS+TU="/>
+        <field:display date="true" dateTimePattern="${appUser_updateddate_date_format}" field="updatedDate" id="s_com_exc_exchangecurrency_security_AppUser_updatedDate" object="${appuser}" z="02aryordTEcec5vnZjjIDZZmS0c="/>
+        <field:display field="username" id="s_com_exc_exchangecurrency_security_AppUser_username" object="${appuser}" z="QvsKDvJdl8nz51lEReq8Z/bSblI="/>
+        <field:display field="password" id="s_com_exc_exchangecurrency_security_AppUser_password" object="${appuser}" z="MJSOfF62jjjALex4QLHkl3PafAg="/>
+        <field:display field="description" id="s_com_exc_exchangecurrency_security_AppUser_description" object="${appuser}" z="VF8GGkZOXIuJNsn7Fd8K8AhE9C8="/>
+        <field:display field="enabled" id="s_com_exc_exchangecurrency_security_AppUser_enabled" object="${appuser}" z="arw7nV5I92MBstIfIOA7KzbRxts="/>
+        <field:display field="needLogin" id="s_com_exc_exchangecurrency_security_AppUser_needLogin" object="${appuser}" z="SJ+PywV5b0GAe8sFy1fRot/CUsg="/>
+        <field:display field="manager" id="s_com_exc_exchangecurrency_security_AppUser_manager" object="${appuser}" z="NWGCHK9P+psO6Yyg1Mj5ZMQT6aM="/>
+        <field:display field="userEmail" id="s_com_exc_exchangecurrency_security_AppUser_userEmail" object="${appuser}" z="WUpaDbtCIVkg855tgDDwOc0zQ4w="/>
+        <field:display field="defaultLang" id="s_com_exc_exchangecurrency_security_AppUser_defaultLang" object="${appuser}" z="h0HttKcOsD1lZrhQV6cmvflun4M="/>
+        <field:display field="userRole" id="s_com_exc_exchangecurrency_security_AppUser_userRole" object="${appuser}" z="kg4WlMIDt+ezWSsNaQgCSbZAxDc="/>
+    </page:show>
+</div>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_exc_exchangecurrency_domain_exc_Currency" object="${currency}" path="/currencys" z="7nbH7TaTNLg4dMEmiSj7Iem9YUE=">
+        <field:display field="createdBy" id="s_com_exc_exchangecurrency_domain_exc_Currency_createdBy" object="${currency}" z="b4PJwE4WvpqQAreLVf5OW9UbU9w="/>
+        <field:display field="updatedBy" id="s_com_exc_exchangecurrency_domain_exc_Currency_updatedBy" object="${currency}" z="pJpR4s2mkFP7EAzezyZu7AVZb8g="/>
+        <field:display field="status" id="s_com_exc_exchangecurrency_domain_exc_Currency_status" object="${currency}" z="78RClqDMeJs+dzH2UNb3L1S0QNo="/>
+        <field:display date="true" dateTimePattern="${currency_createddate_date_format}" field="createdDate" id="s_com_exc_exchangecurrency_domain_exc_Currency_createdDate" object="${currency}" z="IUhJWvN2kVshFyBiNiV/f7n0n4Y="/>
+        <field:display date="true" dateTimePattern="${currency_updateddate_date_format}" field="updatedDate" id="s_com_exc_exchangecurrency_domain_exc_Currency_updatedDate" object="${currency}" z="7ADvRyc8x+MDsEt4WOj04z1aKxc="/>
+        <field:display field="currency_Name" id="s_com_exc_exchangecurrency_domain_exc_Currency_currency_Name" object="${currency}" z="WeCjdACdHTf9bziv9RMdh55iTYs="/>
+        <field:display field="symbol" id="s_com_exc_exchangecurrency_domain_exc_Currency_symbol" object="${currency}" z="K0oB0X322g31GLz9RIMwe58IKLA="/>
+    </page:show>
+</div>
