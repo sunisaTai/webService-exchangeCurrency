@@ -1,0 +1,41 @@
+<aspectj>
+<aspects>
+<aspect name="com.exc.exchangecurrency.domain.exc.BankIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="com.exc.exchangecurrency.security.AppUserIntegrationTest_Roo_Configurable"/>
+<aspect name="com.exc.exchangecurrency.domain.exc.CurrencyDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="com.exc.exchangecurrency.domain.AppParameterIntegrationTest_Roo_Configurable"/>
+<aspect name="com.exc.exchangecurrency.domain.exc.CurrencyIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="com.exc.exchangecurrency.domain.ParameterDetailDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="com.exc.exchangecurrency.domain.exc.DateExchangeCuurencyDataOnDemand_Roo_Configurable"/>
+<aspect name="com.exc.exchangecurrency.domain.ParameterDetailDataOnDemand_Roo_Configurable"/>
+<aspect name="com.exc.exchangecurrency.domain.exc.DateExchangeCuurencyIntegrationTest_Roo_Configurable"/>
+<aspect name="com.exc.exchangecurrency.domain.exc.BankDataOnDemand_Roo_Configurable"/>
+<aspect name="com.exc.exchangecurrency.domain.exc.CurrencyIntegrationTest_Roo_Configurable"/>
+<aspect name="com.exc.exchangecurrency.security.AppUserDataOnDemand_Roo_Configurable"/>
+<aspect name="com.exc.exchangecurrency.domain.ParameterDetailIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="com.exc.exchangecurrency.domain.exc.ExchangeCurrencyDataOnDemand_Roo_Configurable"/>
+<aspect name="com.exc.exchangecurrency.domain.EMailTemplateIntegrationTest_Roo_Configurable"/>
+<aspect name="com.exc.exchangecurrency.domain.ParameterDetailIntegrationTest_Roo_Configurable"/>
+<aspect name="com.exc.exchangecurrency.domain.exc.DateExchangeCuurencyDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="com.exc.exchangecurrency.security.AppRoleIntegrationTest_Roo_Configurable"/>
+<aspect name="com.exc.exchangecurrency.domain.AppParameterIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="com.exc.exchangecurrency.domain.exc.BankDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="com.exc.exchangecurrency.domain.exc.ExchangeCurrencyIntegrationTest_Roo_Configurable"/>
+<aspect name="com.exc.exchangecurrency.domain.exc.BankIntegrationTest_Roo_Configurable"/>
+<aspect name="com.exc.exchangecurrency.domain.exc.ExchangeCurrencyDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="com.exc.exchangecurrency.domain.exc.CurrencyDataOnDemand_Roo_Configurable"/>
+<aspect name="com.exc.exchangecurrency.domain.exc.DateExchangeCuurencyIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="com.exc.exchangecurrency.domain.EMailTemplateIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="com.exc.exchangecurrency.domain.EMailTemplateDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="com.exc.exchangecurrency.domain.AppParameterDataOnDemand_Roo_Configurable"/>
+<aspect name="com.exc.exchangecurrency.security.AppUserDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="com.exc.exchangecurrency.security.AppRoleDataOnDemand_Roo_Configurable"/>
+<aspect name="com.exc.exchangecurrency.security.AppRoleDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="com.exc.exchangecurrency.security.AppRoleIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="com.exc.exchangecurrency.domain.EMailTemplateDataOnDemand_Roo_Configurable"/>
+<aspect name="com.exc.exchangecurrency.domain.AppParameterDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="com.exc.exchangecurrency.security.AppUserIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="com.exc.exchangecurrency.domain.exc.ExchangeCurrencyIntegrationTest_Roo_IntegrationTest"/>
+</aspects>
+</aspectj>
+

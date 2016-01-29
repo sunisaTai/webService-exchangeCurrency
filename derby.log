@@ -1,0 +1,10 @@
+----------------------------------------------------------------
+Fri Jan 29 14:18:27 ICT 2016:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.8.2.2 - (1181258): instance a816c00e-0152-8c3f-5847-00000e11d698 
+on database directory /home/sunisa/devTai/webService-exchangeCurrency/ExchangeCurrency  with class loader WebAppClassLoader=ExchangeCurrency@743116dd 
+Loaded from file:/home/sunisa/.m2/repository/org/apache/derby/derby/10.8.2.2/derby-10.8.2.2.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.7.0_71-b14
+user.dir=/home/sunisa/devTai/webService-exchangeCurrency
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
